@@ -362,3 +362,18 @@ Projectiles: {
 	MAJ_WeatherOrbInertProjectile.DisplayName: Неактивный погодный шар (Снаряд)
 	StarlingMine.DisplayName: Шахта скворца
 }
+
+Configs: {
+	MountAndJourneyConfig: {
+		DisplayName: Конфигурация Mount And Journey
+
+		UseAlternateTextures: {
+			Label: Использование альтернативных текстур
+			Tooltip:
+				'''
+				Изменяет определенные маунты на использование их оригинальных текстур, полезно, если вы играете с текстурным пакетом. 
+				Обратите внимание, что это отключит некоторые анимации
+				'''
+		}
+	}
+}
