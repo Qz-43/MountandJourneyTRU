@@ -80,8 +80,8 @@ Buffs: {
 	}
 
 	MythicalMountBuff: {
-		DisplayName: Легендарный мифический дракон
-		Description: Вы - приближающаяся буря, что сметёт всё на своём пути
+		DisplayName: Красный миф
+		Description: Вы - приближающаяся буря
 	}
 
 	NebulaBeholderBuff: {
@@ -96,12 +96,12 @@ Buffs: {
 
 	StarlingBuff: {
 		DisplayName: Скворец
-		Description: Вся семья в сборе!
+		Description: Вся семья здесь!
 	}
 
 	VortexGunShipBuff: {
 		DisplayName: Оружейный корабль "Вихрь"
-		Description: Когда парочки пушек недостаточно
+		Description: Когда одной парочки пушек недостаточно
 	}
 
 	WyvernMountBuff: {
@@ -110,8 +110,23 @@ Buffs: {
 	}
 
 	DwarflingBuff: {
-		DisplayName: Скворчонок
-		Description: Скворчоноки будут летать вместе с вами
+		DisplayName: Гноменок
+		Description: Гноменки будут летать с вами
+	}
+
+	MAJ_SparrowTransformationBuff: {
+		// DisplayName: Sparrow
+		// Description: You have become a sparrow
+	}
+
+	MAJ_OtterronMountBuff: {
+		// DisplayName: Otter Dragon
+		// Description: They're a great diving companion!
+	}
+
+	MAJ_WingedWyvernTransformationBuff: {
+		// Description: Not to be confused with a Wyvern
+		// DisplayName: Winged Wyvern
 	}
 }
 
@@ -188,7 +203,7 @@ Items: {
 		Tooltip:
 			'''
 			Призывает Космического наблюдателя
-			Находясь на маунте, вы будете отталкивать снаряды смотря на них.
+			Пока вы на маунте, вы отталкиваете снаряды, если посмотрите на них.
 			'''
 	}
 
@@ -204,7 +219,7 @@ Items: {
 
 	MAJ_BlueFeathers: {
 		DisplayName: Древние синие перья
-		Tooltip:  Призывает Синего велоцираптора.
+		Tooltip: Призывает Синего велоцираптора.
 	}
 
 	MAJ_GiantSpiderEgg: {
@@ -226,7 +241,7 @@ Items: {
 		DisplayName: Горный самоцвет
 		Tooltip:
 			'''
-			Привлекает Горного дракона 
+			Привлекает горного дракона 
 			Мощный размах крыльев может направить вас влево, вправо или вверх!
 			'''
 	}
@@ -280,9 +295,9 @@ Items: {
 			'''
 			Результат воздействия сил природы.
 			Похоже, он привлек существо, которому когда-то принадлежал.
-			Движение создает заряд, который поглощается Легендарным драконом.
-			Щелкните правой кнопкой мыши, чтобы высвободить накопившийся заряд!
-			'С восстановленным шаром, я благодарю тебя.'
+			Ударяя шаром по врагам, вы генерируете заряд, который поглощает Красный миф.
+			Щелкните правой кнопкой мыши, чтобы разрядиться!
+			'С восстановленным шаром я благодарю тебя, Terrarian.'
 			'''
 	}
 
@@ -291,7 +306,7 @@ Items: {
 		Tooltip:
 			'''
 			Тяжелая, но хрупкая кристаллическая сфера.
-			Во время шторма вы чувствовали, как он искрился. Может быть, бросив его в время грозы, что-то произойдет?
+			Во время шторма вы чувствовали, как он искрился. Может быть, бросив его, что-то произойдет?
 			'''
 	}
 
@@ -316,7 +331,7 @@ Items: {
 			'''
 			Призывает легендарную птицу возрождения.
 			Вы можете делать рывки, дважды нажимая влево или вправо.
-			Нажмите дважды влево или вправо, сразу после удара по врагу, чтобы сделать цепочку рывков.
+			Щелкните в направлении сразу после удара по чему-либо чтобы сделать цепочку рывков.
 			'''
 	}
 
@@ -347,12 +362,61 @@ Items: {
 
 	WornFlute: {
 		DisplayName: Изношенная флейта
-		Tooltip: Возможно флейта может что-то призвать, хотя она почти не издаёт звуков
+		Tooltip: Возможно, она может что-то призвать, хотя почти не издает звуков
+	}
+
+	MAJ_RiceBall: {
+		// DisplayName: Rice Ball
+		// Tooltip: Transforms the bearer into a sparrow
+	}
+
+	MAJ_JewelSalmon: {
+		// DisplayName: Jewel Salmon
+		// Tooltip: Attracts a rideable Otter Dragon
+	}
+
+	MAJ_FieryAmulet: {
+		// Tooltip: Turns the bearer into a winged wyvern
+		// DisplayName: Fiery Amulet
+	}
+
+	MAJ_PrismFlower: {
+		// DisplayName: Prism Flower
+		// Tooltip: Greatly increases mount speed after moving for a while
+	}
+
+	MAJ_ShootingStar: {
+		/* Tooltip:
+			'''
+			Greatly increases mount speed after moving for a while
+			Allows mounts to quickly switch direction
+			''' */
+		// DisplayName: Shooting Star
+	}
+
+	MAJ_ArcaneDefenseRune: {
+		// DisplayName: Arcane Defense Rune
+		/* Tooltip:
+			'''
+			8 defense
+			Mounts do contact damage while not moving fast
+			''' */
+	}
+
+	MAJ_SigilOfPower: {
+		// DisplayName: Sigil of Power
+		/* Tooltip:
+			'''
+			16 defense
+			Mounts do contact damage while not moving fast
+			Ramming enemies will cause an explosion
+			Reduces damage taken by 18% while moving fast
+			''' */
 	}
 }
 
 Projectiles: {
-	DwarflingMinion.DisplayName: Прислужник-скворчонок
+	DwarflingMinion.DisplayName: Прислужник-гноменок
 	ElectricExplosion.DisplayName: Электрический взрыв
 	MAJ_DragonLightning.DisplayName: Драконья молния
 	MAJ_DragonLightning_Arc.DisplayName: Драконья молния (Дуга)
@@ -361,6 +425,10 @@ Projectiles: {
 	MAJ_OvergrownFlowerHook.DisplayName: Крюк раскидистого цветка
 	MAJ_WeatherOrbInertProjectile.DisplayName: Неактивный погодный шар (Снаряд)
 	StarlingMine.DisplayName: Шахта скворца
+	// MAJ_WyvernFireBall.DisplayName: Wyvern Fire Ball
+	// MAJ_WyvernFireBallExplosion.DisplayName: Wyvern Fire Ball Explosion
+	// MAJ_StarImpact.DisplayName: Star Impact
+	// MAJ_MountWeatherOrb.DisplayName: Weather Orb
 }
 
 Configs: {
