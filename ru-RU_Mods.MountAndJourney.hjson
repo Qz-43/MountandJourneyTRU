@@ -113,6 +113,21 @@ Buffs: {
 		DisplayName: Скворчонок
 		Description: Скворчоноки будут летать вместе с вами
 	}
+
+	MAJ_SparrowTransformationBuff: {
+		// DisplayName: Sparrow
+		// Description: You have become a sparrow
+	}
+
+	MAJ_OtterronMountBuff: {
+		// DisplayName: Otter Dragon
+		// Description: They're a great diving companion!
+	}
+
+	MAJ_WingedWyvernTransformationBuff: {
+		// Description: Not to be confused with a Wyvern
+		// DisplayName: Winged Wyvern
+	}
 }
 
 Items: {
@@ -204,7 +219,7 @@ Items: {
 
 	MAJ_BlueFeathers: {
 		DisplayName: Древние синие перья
-		Tooltip:  Призывает Синего велоцираптора.
+		Tooltip: Призывает Синего велоцираптора.
 	}
 
 	MAJ_GiantSpiderEgg: {
@@ -349,6 +364,55 @@ Items: {
 		DisplayName: Изношенная флейта
 		Tooltip: Возможно флейта может что-то призвать, хотя она почти не издаёт звуков
 	}
+
+	MAJ_RiceBall: {
+		// DisplayName: Rice Ball
+		// Tooltip: Transforms the bearer into a sparrow
+	}
+
+	MAJ_JewelSalmon: {
+		// DisplayName: Jewel Salmon
+		// Tooltip: Attracts a rideable Otter Dragon
+	}
+
+	MAJ_FieryAmulet: {
+		// Tooltip: Turns the bearer into a winged wyvern
+		// DisplayName: Fiery Amulet
+	}
+
+	MAJ_PrismFlower: {
+		// DisplayName: Prism Flower
+		// Tooltip: Greatly increases mount speed after moving for a while
+	}
+
+	MAJ_ShootingStar: {
+		/* Tooltip:
+			'''
+			Greatly increases mount speed after moving for a while
+			Allows mounts to quickly switch direction
+			''' */
+		// DisplayName: Shooting Star
+	}
+
+	MAJ_ArcaneDefenseRune: {
+		// DisplayName: Arcane Defense Rune
+		/* Tooltip:
+			'''
+			8 defense
+			Mounts do contact damage while not moving fast
+			''' */
+	}
+
+	MAJ_SigilOfPower: {
+		// DisplayName: Sigil of Power
+		/* Tooltip:
+			'''
+			16 defense
+			Mounts do contact damage while not moving fast
+			Ramming enemies will cause an explosion
+			Reduces damage taken by 18% while moving fast
+			''' */
+	}
 }
 
 Projectiles: {
@@ -361,6 +425,10 @@ Projectiles: {
 	MAJ_OvergrownFlowerHook.DisplayName: Крюк раскидистого цветка
 	MAJ_WeatherOrbInertProjectile.DisplayName: Неактивный погодный шар (Снаряд)
 	StarlingMine.DisplayName: Шахта скворца
+	// MAJ_WyvernFireBall.DisplayName: Wyvern Fire Ball
+	// MAJ_WyvernFireBallExplosion.DisplayName: Wyvern Fire Ball Explosion
+	// MAJ_StarImpact.DisplayName: Star Impact
+	// MAJ_MountWeatherOrb.DisplayName: Weather Orb
 }
 
 Configs: {
